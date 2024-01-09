@@ -103,3 +103,11 @@ Refer to this.js inside intermediate folder
 1. Selecting elements on web page
 a. Query Selector
 b. Get element by
+
+# setInterval(func,time)
+
+eg: how much needed to play football, where football is function and time is the time
+
+# setTimeout(func,time)
+
+eg: how much time after which football will be played,football is function and timeoutTime is time
