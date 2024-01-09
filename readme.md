@@ -63,3 +63,31 @@ ${}-> template literal for embedding expression
 ## Callback Function
 
 ## Arrow Function
+
+## Object
+
+ 1. Syntax:
+    var name={
+        key: value,
+        key2: value2
+    };
+ 2. Updation -> name.key2=new_value;
+
+## console.table(name)
+
+    Displays the object in form of a table
+
+## Using function inside a object
+
+    var name={
+        key: value,
+        function_name: function(param){
+            ..
+            logic..
+            ..
+        }
+    }
+
+## For Of loop for Arrays
+
+## For In loop for Objects
