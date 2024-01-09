@@ -91,3 +91,15 @@ ${}-> template literal for embedding expression
 ## For Of loop for Arrays
 
 ## For In loop for Objects
+
+## this
+
+1. For all regular function calls, this refers to the Window object
+
+Refer to this.js inside intermediate folder
+
+# DOM --> Document Object Model
+
+1. Selecting elements on web page
+a. Query Selector
+b. Get element by

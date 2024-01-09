@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: auto;
+    background-color: rgb(37, 37, 37);
+}
+
+.center {
+    color: aliceblue;
+}
+
+.body_container {
+    display: flex;
+
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.red,
+.green,
+.blue,
+.yellow {
+    padding: 2rem;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
