@@ -98,16 +98,20 @@ ${}-> template literal for embedding expression
 
 Refer to this.js inside intermediate folder
 
-# DOM --> Document Object Model
+## DOM --> Document Object Model
 
 1. Selecting elements on web page
 a. Query Selector
 b. Get element by
 
-# setInterval(func,time)
+## setInterval(func,time)
 
 eg: how much needed to play football, where football is function and time is the time
 
-# setTimeout(func,time)
+## setTimeout(func,time)
 
 eg: how much time after which football will be played,football is function and timeoutTime is time
+
+## Prototype
+
+    Injecting function using prototype in an object
