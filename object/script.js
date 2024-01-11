@@ -16,16 +16,29 @@ User.prototype.getFirstname = function () {
 
 
 
+
+
+
 //new used for invoking constructor, when we put new it points to the prototype call, hence not a regular function call
 var ne0gi02 = new User("ne0gi02", 2);
 // console.log(ne0gi02);
 ne0gi02.getCourseCount();
+
+//object chaining
+if (ne0gi02.hasOwnProperty("firstName")) {
+    ne0gi02.getFirstname();
+}
+
+
 ne0gi02.getFirstname();
 
 var bhaduri = new User("bhaduri", 1);
 bhaduri.getCourseCount();
 bhaduri.getFirstname();
 // console.log(bhaduri);
+
+
+
 
 
 

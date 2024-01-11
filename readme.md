@@ -115,3 +115,52 @@ eg: how much time after which football will be played,football is function and t
 ## Prototype
 
     Injecting function using prototype in an object
+
+## Object Chaining, constructor
+
+## Functions
+
+    Functions are treated as FirstClass Citizen in fucntional Proramming
+
+## Functional Programming
+
+    1. Keep data and functions totally different
+    2. Not to change the state much often
+    3. Make the function const as variables
+
+## Self Executing Anonymous Function Or IIFE(Immediate Invoked Function Expression)
+
+    (function () {
+    console.log("I am ne0gi02");
+    console.log("I am again there");
+})();
+
+## Closure
+
+    It is a function bind to its lexical environment
+
+    Uses:
+
+    1. Module Design Pattern
+    2. Currying ----> 
+    function doAddition(x) {
+
+    //return reference of the function
+    return function (y) {
+        return x + y;
+    }
+}
+console.log(doAddition(6)(7));
+    3. Functions like once
+    4. memoize
+    5. maintaining state in async world
+    6. settimeOuts
+    7. Iterators
+
+## Bind and Call
+
+//bind returns the refernce and thus not executed directly
+var rimoInfo = ne0gi02.getInfo.bind(rimo);
+
+//call directly calls the method
+ne0gi02.getInfo.call(rimo);
