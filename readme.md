@@ -164,3 +164,5 @@ var rimoInfo = ne0gi02.getInfo.bind(rimo);
 
 //call directly calls the method
 ne0gi02.getInfo.call(rimo);
+
+## Text Node in html
