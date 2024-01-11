@@ -133,7 +133,8 @@ eg: how much time after which football will be played,football is function and t
     (function () {
     console.log("I am ne0gi02");
     console.log("I am again there");
-})();
+    })
+    ();
 
 ## Closure
 
