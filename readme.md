@@ -167,3 +167,15 @@ var rimoInfo = ne0gi02.getInfo.bind(rimo);
 ne0gi02.getInfo.call(rimo);
 
 ## Text Node in html
+
+## Non-blocking IO
+
+## Concurrency Model
+
+## Promise has
+
+1. Resolve
+2. Reject
+
+    Note:
+    In JavaScript, when you use const with a variable that holds a promise, it doesn't wait for the promise to resolve. It immediately assigns the pending promise to the variable.
